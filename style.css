@@ -2,6 +2,7 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    margin:0;
 }
 
 .header{
@@ -11,10 +12,19 @@ body{
     padding-top: 10px;
 }
 
+.full-head{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 .main-content{
     display: flex;
     justify-content: center;
+    gap: 20px;
     margin: 40px;
+    flex-wrap: wrap;
    
 }
 
@@ -22,7 +32,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex:1;
+    
 }
 
 .main-img{
@@ -49,8 +59,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
+    gap:20px;
+    flex:1;
+    justify-content: center;
     flex:1;
 }
 
@@ -67,8 +78,6 @@ body{
     gap: 50px;
     justify-content: space-evenly;
     margin: 10px;
-   
-    
 }
 
 
@@ -78,6 +87,7 @@ body{
     height: 150px;
     border: 3px solid #3882f6;
     border-radius: 7px;
+    
 }
 
 .main-text-info{
@@ -86,15 +96,88 @@ body{
     font-weight: bolder;
 }
 
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
 
+.action-holder{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    padding: 1px;
+    width: 600px;
+    height: 150px;
+    border-radius: 10px;
+}
 
+.action-button{
+    border:#f9faf8 solid 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
 
+.action-text{
+    color:#e5e7eb;
+}
 
+#action-header{
+    font-size: 24px;
+    font-weight: bold;
+}
 
+#action-subtext{
+    font-size: 18px;
+}
 
-
-.full-head{
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
     background-color: #1f2937;
+    color:#e5e7eb;
+    width:100%;
+}
+
+
+
+
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-style:italic;
+}
+
+.quote-source{
+    
+    padding-right: 50px;
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bold;
 }
 
 ul{
